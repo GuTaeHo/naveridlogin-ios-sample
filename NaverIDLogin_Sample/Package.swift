@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .binaryTarget(name: "NaverThirdPartyLogin", path: "./Frameworks/NaverThirdPartyLogin.xcframework"),
+        .binaryTarget(name: "NaverThirdPartyLogin", path: "./NaverThirdPartyLogin.xcframework"),
         .target(name: "NaverIDLogin_Sample", dependencies: ["NaverThirdPartyLogin"])
     ]
 )
