@@ -2,9 +2,7 @@
 네아로 SDK는 Cocoapods 만 지원, SPM 으로 설치하기위함
 
 # 설치
-1. 깃 레포지토리 생성
-2. 패키지 추가
-3. 사용될 프로젝트에서 spm add
+File -> Add Package Dependencies -> Search -> 깃 주소 입력 -> Add Package
 
 
 # 참고
